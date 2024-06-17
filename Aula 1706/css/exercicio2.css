@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    background: linear-gradient(45deg, white, grey, pink);
+    height: 100vh;
+}
+
+.secao {
+    margin: 20px 0 0 10px;
+}
+.secao2 {
+    margin: 20px 0 15px 10px;
+}
+
+.botao {
+    margin-left: 30px;
+    border: 1px solid blueviolet;
+    color: black;
+    background-color: white;
+    padding: 10px 10px;
+    font-size: 16px;
+    box-shadow: 5px 5px 5px 2px black;
+    border-radius: 10px;
+    
+}
+.botao:hover {
+    background-color: pink;
+    transition-duration: 0.4s;
+  }
+
+#link {
+    text-decoration: none;
+}
+
+.paragrafo1 {
+    font-family: "Roboto", sans-serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px 1px black;
+    padding: 10px;
+    border-radius: 8px;
+    width: 400px;
+}
+.paragrafo2 {
+    font-family: "Roboto", sans-serif;
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.8);
+    box-shadow: 8px 8px 8px 4px black;
+    width: 400px;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.titulo {
+    color: blueviolet;
+    text-align: center;
+}
