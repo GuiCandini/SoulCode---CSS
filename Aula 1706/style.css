@@ -1,0 +1,32 @@
+/* Comentários CSS */
+/* Aula CSS - 17.06 */
+
+/* Seletor de elemento = todos os elementos da página recebem o estilo */
+p {
+    color: darkviolet;
+}
+
+/* Seletor de classe = elementos com atributo class recebem o estilo */
+.destaque {
+    background-color: darkturquoise;
+    color: blue;
+    text-decoration: underline;
+}
+
+.texto-centro {
+    text-align: center;
+}
+
+/* Seletor de ID = Aplicado a um único elemento na página */
+#paragrafo {
+    background-color: black;
+    text-align: right;
+    font-size: 30px;
+}
+
+/* Especificidade => Elemento, Classe, ID */
+
+body {
+    /* propriedade herdada = passada adiante */
+    font-family: Arial, sans-serif;
+}
