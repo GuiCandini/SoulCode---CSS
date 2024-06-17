@@ -1,0 +1,43 @@
+/* Box model
+    > padding (espaço interno)
+    > margin (espaço externo)
+    > border (borda ao redor do elemento)
+*/
+.box1 {
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.box2{
+    background-color: blue;
+    border-radius: 10px;
+    /* Top Right Bottom Left */
+    padding: 10px 15px 20px 10px;
+    /* Vertical Horizontal */
+    margin: 20px 10px;
+}
+.box3 {
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    /* Tamanho da borda | estilo da borda | cor da borda */
+    border: 3px dotted black;
+}
+.box4 {
+    background-color: crimson;
+    border-radius: 10px;
+    border: 5px solid black;
+    padding: 30px;
+    margin: 10px;
+    width: 200px;
+    height: 400px;
+    /*box-sizing: border-box;*/
+}
+
+/* Seletor Universal -> aplica o estilo em todos os elementos*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
