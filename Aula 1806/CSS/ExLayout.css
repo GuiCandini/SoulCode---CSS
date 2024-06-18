@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(123, 153, 162);
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+
+.nav img{
+    width: 150px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.links {
+    display: flex;
+    background-color: hotpink;
+    padding: 0 5px;
+}
+
+.itens {
+    background-color: rgb(137, 66, 137);
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+} 
